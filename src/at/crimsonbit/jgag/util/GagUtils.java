@@ -29,7 +29,7 @@ public class GagUtils {
 			Map<String, String> args, Map<String, String> body) {
 		String url = createURL(service, path, args);
 		Map<String, String> headers = new HashMap<>();
-		headers.put("9GAG-9GAG_TOKEN", value)
+		headers.put("9GAG-9GAG_TOKEN", value);
 		return null;
 	}
 	
