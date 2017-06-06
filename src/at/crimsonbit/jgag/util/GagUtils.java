@@ -25,14 +25,6 @@ public class GagUtils {
 		return sb.toString();
 	}
 	
-	public static String sendRequest(Method method, String path, Service service, boolean sign,
-			Map<String, String> args, Map<String, String> body) {
-		String url = createURL(service, path, args);
-		Map<String, String> headers = new HashMap<>();
-		headers.put("9GAG-9GAG_TOKEN", value)
-		return null;
-	}
-	
 	/**
 	 * Appends a String and a char to a StringBuilder, makes the forEach easier
 	 * 
