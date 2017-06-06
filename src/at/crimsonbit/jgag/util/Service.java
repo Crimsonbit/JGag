@@ -6,7 +6,7 @@ package at.crimsonbit.jgag.util;
  * @author Alexander Daum
  *
  */
-public enum Services {
+public enum Service {
 	API("http://api.9gag.com"),
 	COMMENT_CDN("http://comment-cdn.9gag.com"),
 	NOTIFY("http://notify.9gag.com"),
@@ -15,7 +15,7 @@ public enum Services {
 	
 	private String url;
 	
-	private Services(String url) {
+	private Service(String url) {
 		this.url = url;
 	}
 	
