@@ -25,6 +25,8 @@ public class GagUtils {
 		return sb.toString();
 	}
 	
+	
+	
 	/**
 	 * Appends a String and a char to a StringBuilder, makes the forEach easier
 	 * 
